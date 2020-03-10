@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+    <UserSecretsId>19a21f33-60be-40fb-a133-5dea0f86742d</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20190316184912_Remove_User.cs" />
+    <Compile Remove="Migrations\20190316184912_Remove_User.Designer.cs" />
+    <Compile Remove="Migrations\20190316185216_Remove_objects.cs" />
+    <Compile Remove="Migrations\20190316185216_Remove_objects.Designer.cs" />
+    <Compile Remove="Migrations\20190316185344_Remove_objects.cs" />
+    <Compile Remove="Migrations\20190316185344_Remove_objects.Designer.cs" />
+    <Compile Remove="Migrations\20190316185526_Remove_objects.cs" />
+    <Compile Remove="Migrations\20190316185526_Remove_objects.Designer.cs" />
+    <Compile Remove="Migrations\20190325123349_Initial_Migration.cs" />
+    <Compile Remove="Migrations\20190325123349_Initial_Migration.Designer.cs" />
+    <Compile Remove="Migrations\20190325124248_Update_User_AddressId.cs" />
+    <Compile Remove="Migrations\20190325124248_Update_User_AddressId.Designer.cs" />
+    <Compile Remove="Migrations\20190325152649_Update_User_Psw.cs" />
+    <Compile Remove="Migrations\20190325152649_Update_User_Psw.Designer.cs" />
+    <Compile Remove="Migrations\20190325152925_Update_User_Psw.cs" />
+    <Compile Remove="Migrations\20190325152925_Update_User_Psw.Designer.cs" />
+    <Compile Remove="Migrations\20190326151142_Update_Roles.cs" />
+    <Compile Remove="Migrations\20190326151142_Update_Roles.Designer.cs" />
+    <Compile Remove="Migrations\20190330105716_fix_hash.cs" />
+    <Compile Remove="Migrations\20190330105716_fix_hash.Designer.cs" />
+    <Compile Remove="Migrations\20190330110353_remove_hash.cs" />
+    <Compile Remove="Migrations\20190330110353_remove_hash.Designer.cs" />
+    <Compile Remove="Migrations\20190330110525_add_hash.cs" />
+    <Compile Remove="Migrations\20190330110525_add_hash.Designer.cs" />
+    <Compile Remove="Migrations\20190330151224_Update_Address.cs" />
+    <Compile Remove="Migrations\20190330151224_Update_Address.Designer.cs" />
+    <Compile Remove="Migrations\20190330151337_Update_Address.cs" />
+    <Compile Remove="Migrations\20190330151337_Update_Address.Designer.cs" />
+    <Compile Remove="Migrations\20190402131634_Update_CompanyRoles.cs" />
+    <Compile Remove="Migrations\20190402131634_Update_CompanyRoles.Designer.cs" />
+    <Compile Remove="Migrations\20190405121355_Add_bool_to_CompanyRole.cs" />
+    <Compile Remove="Migrations\20190405121355_Add_bool_to_CompanyRole.Designer.cs" />
+    <Compile Remove="Migrations\20190405122803_fix.cs" />
+    <Compile Remove="Migrations\20190405122803_fix.Designer.cs" />
+    <Compile Remove="Migrations\20190405123029_Initial-Migration.cs" />
+    <Compile Remove="Migrations\20190405123029_Initial-Migration.Designer.cs" />
+    <Compile Remove="Migrations\20190503120213_AddLog.cs" />
+    <Compile Remove="Migrations\20190503120213_AddLog.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="4.0.1" />
+  </ItemGroup>
+
+</Project>
